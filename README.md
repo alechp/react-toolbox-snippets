@@ -4,11 +4,9 @@ Library reference: http://react-toolbox.com/
 
 ##Getting Started
 1. Open VSCode 
-2. Open command palette ```CMD + SHIFT + P```
+2. Open command palette ```CMD + P```
 3. Type "ext install react-toolbox-snippets"
 4. Restart
-5. ???
-6. Kill this joke with fire
 
 
 ##Shortcuts
