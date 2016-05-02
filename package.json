@@ -1,0 +1,26 @@
+{
+    "name": "react-toolbox-snippets",
+    "displayName": "React Toolbox Snippets",
+    "description": "Component sample code from http://react-toolbox.com",
+    "icon": "images/reacttoolbox-icon.png",
+    "galleryBanner": {
+        "theme": "dark"
+    },
+    "version": "0.0.1",
+    
+    "publisher": "alechp",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
