@@ -5,6 +5,7 @@ Raw component source exported from http://react-toolbox.com/#/components
 ------------
 APPBAR
 ------------
+```
 import AppBar from 'react-toolbox/lib/app_bar';
 
 const AppBarTest = () => (
@@ -13,11 +14,12 @@ const AppBarTest = () => (
     <Navigation />
   </AppBar>
 );
+```
 
 ------------
 AUTOCOMPLETE
 ------------
-
+```
 import Autocomplete from 'react-toolbox/lib/autocomplete';
 
 const source = {
@@ -49,11 +51,11 @@ class AutocompleteTest extends React.Component {
     );
   }
 }
-
+```
 ------------
 AVATAR
 ------------
-
+```
 import Avatar from 'react-toolbox/lib/avatar';
 
 const GithubIcon = () => (
@@ -71,11 +73,11 @@ const AvatarTest = () => (
     <Avatar style={{backgroundColor: 'yellowgreen'}}><GithubIcon /></Avatar>
   </div>
 );
-
+```
 ------------
 BUTTON
 ------------
-
+```
 import {Button, IconButton} from 'react-toolbox/lib/button';
 
 const GithubIcon = () => (
@@ -100,12 +102,11 @@ const TestButtons = () => (
     <Button icon='add' label='Add this' flat disabled />
   </div>
 );
-
-
+```
 ------------
 CARD
 ------------
-
+```
 import { Card, CardMedia, CardTitle, CardText, CardActions } from 'react-toolbox/lib/card';
 
 const dummyText = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.';
@@ -134,13 +135,13 @@ const TestCards = () => (
 );
 
 return <TestCards />;
-
+```
 
 ------------
 CHIP
 ------------
 
-
+```
 import Avatar from 'react-toolbox/lib/avatar';
 import Chip from 'react-toolbox/lib/chip';
 
@@ -169,12 +170,12 @@ const ChipTest = () => (
     </Chip>
   </div>
 );
-
+```
 
 ------------
 CHECKBOX
 ------------
-
+```
 import Checkbox from 'react-toolbox/lib/checkbox';
 
 class TestCheckbox extends React.Component {
@@ -206,12 +207,12 @@ class TestCheckbox extends React.Component {
     );
   }
 }
-
+```
 
 ------------
 DATE PICKER
 ------------
-
+```
 import DatePicker from 'react-toolbox/lib/date_picker';
 
 const datetime = new Date(2015, 10, 16);
@@ -236,11 +237,11 @@ class DatePickerTest extends React.Component {
     );
   }
 }
-
+```
 ------------
 DIALOG
 ------------
-
+```
 import Dialog from 'react-toolbox/lib/dialog';
 
 class DialogTest extends React.Component {
@@ -274,12 +275,12 @@ class DialogTest extends React.Component {
     );
   }
 }
-
+```
 
 ------------
 DRAWER
 ------------
-
+```
 import Drawer from 'react-toolbox/lib/drawer';
 
 class DrawerTest extends React.Component {
@@ -303,12 +304,12 @@ class DrawerTest extends React.Component {
     );
   }
 }
-
+```
 
 ------------
 DROPDOWN
 ------------
-
+```
 import Dropdown from 'react-toolbox/lib/dropdown';
 
 const countries = [
@@ -338,12 +339,12 @@ class DropdownTest extends React.Component {
     );
   }
 }
-
+```
 
 ------------
 FONT ICON
 ------------
-
+```
 import FontIcon from 'react-toolbox/lib/font_icon';
 
 const FontIcons = () => (
@@ -353,12 +354,12 @@ const FontIcons = () => (
     <FontIcon>star</FontIcon>
   </span>
 );
-
+```
 
 ------------
 INPUT
 ------------
-
+```
 import Input from 'react-toolbox/lib/input';
 
 class InputTest extends React.Component {
@@ -380,12 +381,12 @@ class InputTest extends React.Component {
     );
   }
 }
-
+```
 
 ------------
 LAYOUT
 ------------
-
+```
 import { AppBar, Checkbox, IconButton } from 'react-toolbox';
 import { Layout, NavDrawer, Panel, Sidebar } from 'react-toolbox';
 
@@ -437,12 +438,12 @@ class LayoutTest extends React.Component {
         );
     }
 }
-
+```
 
 ------------
 LINK
 ------------
-
+```
 import Link from 'react-toolbox/lib/link';
 
 const LinksTest = () => (
@@ -452,13 +453,13 @@ const LinksTest = () => (
     <Link href='/#/components/link' label='Explore' icon='explore' />
   </nav>
 );
-
+```
 
 
 ------------
 LIST
 ------------
-
+```
 import { List, ListItem, ListSubHeader, ListDivider, ListCheckbox } from 'react-toolbox/lib/list';
 
 const ListTest = () => (
@@ -489,12 +490,12 @@ const ListTest = () => (
     <ListItem caption='Remove this publication' leftIcon='delete' />
   </List>
 );
-
+```
 
 ------------
 MENU
 ------------
-
+```
 import {IconMenu, MenuItem, MenuDivider } from 'react-toolbox/lib/menu';
 
 const MenuTest = () => (
@@ -506,12 +507,12 @@ const MenuTest = () => (
     <MenuItem value='signout' icon='delete' caption='Delete' disabled />
   </IconMenu>
 );
-
+```
 
 ------------
 NAVIGATION
 ------------
-
+```
 import Navigation from 'react-toolbox/lib/navigation';
 import Link from 'react-toolbox/lib/link';
 
@@ -529,12 +530,12 @@ const NavigationTest = () => (
     </Navigation>
   </div>
 );
-
+```
 
 ------------
 PROGRESS BAR
 ------------
-
+```
 import ProgressBar from 'react-toolbox/lib/progress_bar';
 
 const ProgressTest = () => (
@@ -543,12 +544,12 @@ const ProgressTest = () => (
     <ProgressBar type='linear' mode='determinate' value={83} buffer={90}/>
   </div>
 );
-
+```
 
 ------------
 RADIO BUTTONS
 ------------
-
+```
 import { RadioGroup, RadioButton } from 'react-toolbox/lib/radio';
 
 class RadioTest extends React.Component {
@@ -571,11 +572,11 @@ class RadioTest extends React.Component {
     );
   }
 }
-
+```
 ------------
 RIPPLE
 ------------
-
+```
 import Ripple from 'react-toolbox/lib/ripple';
 
 const Link = (props) => (
@@ -586,13 +587,12 @@ const Link = (props) => (
 
 const RippleLink = Ripple({spread: 3})(Link);
 const RippleTest = () => <RippleLink href='#'>Test</RippleLink>;
-
-
+```
 
 ------------
 SLIDER
 ------------
-
+```
 import Slider from 'react-toolbox/lib/slider';
 
 class SliderTest extends React.Component {
@@ -620,13 +620,13 @@ class SliderTest extends React.Component {
     );
   }
 }
-
+```
 
 
 ------------
 SNACKBAR
 ------------
-
+```
 import { Button, Snackbar } from 'react-toolbox';
 
 class SnackbarTest extends React.Component {
@@ -654,13 +654,13 @@ class SnackbarTest extends React.Component {
     );
   }
 }
-
+```
 
 
 ------------
 SWITCH
 ------------
-
+```
 import Switch from 'react-toolbox/lib/switch';
 
 class SwitchTest extends React.Component {
@@ -697,14 +697,14 @@ class SwitchTest extends React.Component {
     );
   }
 }
-
+```
 
 
 
 ------------
 TABLE
 ------------
-
+```
 import Table from 'react-toolbox/lib/table';
 
 const UserModel = {
@@ -747,13 +747,13 @@ class TableTest extends React.Component {
     );
   }
 }
-
+```
 
 
 ------------
 TABS
 ------------
-
+```
 import {Tab, Tabs} from 'react-toolbox';
 
 class TabsTest extends React.Component {
@@ -781,13 +781,13 @@ class TabsTest extends React.Component {
     );
   }
 }
-
+```
 
 
 ------------
 TOOLTIP
 ------------
-
+```
 import Button from 'react-toolbox/lib/button';
 import Tooltip from 'react-toolbox/lib/tooltip';
 import Link from 'react-toolbox/lib/link';
@@ -804,13 +804,13 @@ const TooltipTest = () => (
     <TooltipInput tooltip='lorem ipsum...' />
   </div>
 );
-
+```
 
 
 ------------
 TIME PICKER
 ------------
-
+```
 import TimePicker from 'react-toolbox/lib/time_picker';
 let time = new Date();
 time.setHours(17);
@@ -827,3 +827,4 @@ class TimePickerTest extends React.Component {
       return <TimePicker label='Finishing time' onChange={this.handleChange} value={this.state.time} />;
   }
 }
+```
